@@ -7,5 +7,5 @@ Last modified: 2025-07-07
 :root {
   --STRVN-RADIUS-NONE: 0;
   --STRVN-RADIUS-ROUNDED: 0.5rem;
-  --STRVN-RADIUS-FULL: 5rem;
+  --STRVN-RADIUS-FULL: calc(infinity * 1px);
 }
