@@ -1,0 +1,13 @@
+/*
+PATH: app/ui-component/Caption/index.css
+@osakacrypto
+Last modified: 2025-07-07
+*/
+
+.strvn-caption {
+  font-size: var(--STRVN-CAPTION);
+  font-weight: var(--STRVN-WEIGHT-REGULAR);
+  margin: 0 0 var(--STRVN-SPACING-3) 0;
+  line-height: var(--STRVN-LINEHEIGHT-CAPTION);
+  color: var(--STRVN-FOREGROUND);
+}

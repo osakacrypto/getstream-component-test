@@ -1,0 +1,20 @@
+/*
+PATH: app/ui-component/Paragraph/index.css
+@osakacrypto
+Last modified: 2025-07-09
+*/
+
+.strvn-paragraph {
+  font-size: var(--STRVN-PARAGRAPH);
+  font-weight: var(--STRVN-WEIGHT-REGULAR);
+  margin: 0 0 var(--STRVN-SPACING-4) 0;
+  line-height: var(--STRVN-LINEHEIGHT-PARAGRAPH);
+  color: var(--STRVN-FOREGROUND);
+}
+
+.strvn-paragraph a,
+.strvn-paragraph span {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: underline;
+}

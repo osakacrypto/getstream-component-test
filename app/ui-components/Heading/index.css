@@ -1,0 +1,13 @@
+/*
+PATH: app/ui-component/Heading/index.css
+@osakacrypto
+Last modified: 2025-07-07
+*/
+
+.strvn-heading {
+  font-size: var(--STRVN-HEADING);
+  font-weight: var(--STRVN-WEIGHT-BOLD);
+  margin: 0 0 var(--STRVN-SPACING-3) 0;
+  line-height: var(--STRVN-LINEHEIGHT-HEADING);
+  text-transform: uppercase;
+}
