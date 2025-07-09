@@ -26,17 +26,17 @@ export default function Home() {
         <STRVNFeaturedImageAndText
           slides={[
             {
-              src: "/images/batman-1.png",
+              src: "/images/carousel/1.png",
               title: "GOTHAM’S GUARDIAN",
               alt: "A still shot from the Batman TV show, The Penguin is making notes.",
             },
             {
-              src: "/images/batman-2.png",
+              src: "/images/carousel/2.png",
               title: "KNIGHT OF VENGEANCE",
               alt: "A still shot from the Batman TV show, Batman is confronting a villain.",
             },
             {
-              src: "/images/batman-6.png",
+              src: "/images/carousel/3.png",
               title: "LEGEND IN THE DARK",
               alt: "A still shot from the Batman TV show, Batman is being stealthy behind a villain.",
             },

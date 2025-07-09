@@ -34,7 +34,7 @@ Last modified: 2025-07-10
 }
 
 .strvn-button:hover:not(.strvn-button-disabled) {
-  box-shadow: 0 0 0 3px var(--STRVN-COLOUR-YELLOW);
+  box-shadow: 0 0 4px 3px var(--STRVN-COLOUR-YELLOW);
 }
 
 .strvn-button:active:not(.strvn-button-disabled) {
