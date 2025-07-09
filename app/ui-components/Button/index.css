@@ -1,0 +1,67 @@
+/*
+PATH: app/ui-component/Button/index.css
+@osakacrypto
+Last modified: 2025-07-10
+*/
+
+.strvn-button {
+  display: inline-block;
+  min-width: 150px;
+  max-width: 320px;
+  padding: var(--STRVN-SPACING-2) var(--STRVN-SPACING-5);
+  font-size: var(--STRVN-BUTTON);
+  font-weight: var(--STRVN-WEIGHT-SEMIBOLD);
+  line-height: var(--STRVN-LINEHEIGHT-BUTTON);
+  text-align: center;
+  border-radius: var(--STRVN-RADIUS-FULL);
+  transition: all var(--STRVN-TIMING-FAST);
+  border: 2px dashed transparent;
+  background: none;
+  color: var(--STRVN-FOREGROUND);
+  text-transform: capitalize;
+  scale: 1;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+
+.strvn-button-full {
+  display: block;
+  width: 100%;
+}
+
+.strvn-button:focus {
+  outline: none;
+}
+
+.strvn-button:hover:not(.strvn-button-disabled) {
+  box-shadow: 0 0 0 3px var(--STRVN-COLOUR-YELLOW);
+}
+
+.strvn-button:active:not(.strvn-button-disabled) {
+  scale: 0.95;
+}
+
+.strvn-button-disabled,
+.strvn-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.strvn-button-filled {
+  background: var(--STRVN-COLOUR-YELLOW);
+  border-color: var(--STRVN-COLOUR-YELLOW);
+  color: var(--STRVN-COLOUR-BLACK);
+}
+
+.strvn-button-outlined {
+  background: none;
+  border: 2px dashed var(--STRVN-COLOUR-YELLOW);
+  color: var(--STRVN-FOREGROUND);
+}
+
+.strvn-button-ghosted {
+  background: none;
+  border-color: transparent;
+  color: var(--STRVN-FOREGROUND);
+}

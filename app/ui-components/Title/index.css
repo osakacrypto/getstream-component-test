@@ -9,14 +9,15 @@ Last modified: 2025-07-10
   font-weight: var(--STRVN-WEIGHT-BOLD);
   margin: 0 0 var(--STRVN-SPACING-3) 0;
   line-height: var(--STRVN-LINEHEIGHT-TITLE);
-  text-shadow: -6px 3px var(--STRVN-COLOUR-BLACK);
   text-transform: uppercase;
 }
 
 .strvn-title-default {
   color: var(--STRVN-FOREGROUND);
+  text-shadow: -5px 2px var(--STRVN-PRIMARY);
 }
 
 .strvn-title-contrast {
   color: var(--STRVN-PRIMARY);
+  text-shadow: -5px 2px var(--STRVN-COLOUR-BLACK);
 }

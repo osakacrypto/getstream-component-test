@@ -4,6 +4,10 @@ PATH: app/page.tsx
 Last modified: 2025-07-08
 */
 
+import FontSizeToggle from "./Testing/FontSizeToggle";
+import ReduceMotionToggle from "./Testing/ReduceMotionToggle";
+import ThemeToggle from "./Testing/ThemeToggle";
+import STRVNButton from "./ui-components/Button";
 import STRVNCaption from "./ui-components/Caption";
 import STRVNHeading from "./ui-components/Heading";
 import STRVNParagraph from "./ui-components/Paragraph";
@@ -32,9 +36,23 @@ export default function Home() {
         <STRVNCaption>Caption Component Test</STRVNCaption>
         <STRVNParagraph>Paragraph Component Test</STRVNParagraph>
       </STRVNWrapper>
+      <STRVNWrapper>
+        <STRVNButton variant="filled">Filled Test</STRVNButton>
+        <STRVNButton variant="outlined">Outlined Test</STRVNButton>
+        <STRVNButton variant="ghosted">Ghosted Test</STRVNButton>
+        <STRVNButton variant="filled" disabled>
+          Disabled Test
+        </STRVNButton>
+      </STRVNWrapper>
       <footer>
         <h1 className="boilerplate-heading">FOOTER</h1>
       </footer>
+
+      <div className="test-toggles">
+        <ReduceMotionToggle />
+        <ThemeToggle />
+        <FontSizeToggle />
+      </div>
     </main>
   );
 }
