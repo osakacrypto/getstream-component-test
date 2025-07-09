@@ -1,0 +1,18 @@
+/*
+PATH: app/ui-component/Wrapper/index.css
+@osakacrypto
+Last modified: 2025-07-08
+*/
+
+.outer {
+  width: 100%;
+  background: var(--STRVN-BACKGROUND);
+  overflow: hidden;
+  padding-block: var(--STRVN-SPACING-8);
+}
+
+.inner {
+  width: 100%;
+  max-width: var(--STRVN-CONTAINER-DESKTOP);
+  margin-inline: auto;
+}
