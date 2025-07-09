@@ -11,6 +11,7 @@ Last modified: 2025-07-07
 
 :root.theme-light {
   --STRVN-PRIMARY: #f2b862;
+  --STRVN-SECONDARY: #87877f;
   --STRVN-FOREGROUND: #0e0f0c;
   --STRVN-BACKGROUND: #ffffff;
 }

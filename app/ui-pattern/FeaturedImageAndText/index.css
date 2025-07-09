@@ -24,12 +24,11 @@ Last modified: 2025-07-10
 .featured::after {
   position: absolute;
   top: 0;
-  left: 70%;
+  left: 60%;
   right: auto;
   height: 100%;
   width: 100%;
   border: 2px dashed var(--STRVN-PRIMARY);
-  opacity: 0.2;
   pointer-events: none;
   z-index: 0;
   border-radius: var(--STRVN-RADIUS-ROUNDED);
@@ -46,7 +45,7 @@ Last modified: 2025-07-10
 }
 
 .featured-reverseorder::after {
-  left: -70%;
+  left: -60%;
 }
 
 .featured-content-box {
@@ -194,8 +193,8 @@ Last modified: 2025-07-10
 
 .shadows {
   color: var(--STRVN-COLOUR-BLACK);
-  text-shadow: 0 0 7px var(--STRVN-PRIMARY), 0 0 10px var(--STRVN-PRIMARY),
-    0 0 21px var(--STRVN-PRIMARY), 0 0 42px var(--STRVN-PRIMARY);
+  text-shadow: 0 0 7px var(--STRVN-SECONDARY), 0 0 10px var(--STRVN-SECONDARY),
+    0 0 20px var(--STRVN-SECONDARY), 0 0 40px var(--STRVN-SECONDARY);
   overflow: hidden;
 }
 

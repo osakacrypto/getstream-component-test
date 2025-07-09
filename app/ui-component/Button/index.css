@@ -22,6 +22,7 @@ Last modified: 2025-07-10
   scale: 1;
   text-wrap: nowrap;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .strvn-button-full {
@@ -52,6 +53,10 @@ Last modified: 2025-07-10
   background: var(--STRVN-COLOUR-YELLOW);
   border-color: var(--STRVN-COLOUR-YELLOW);
   color: var(--STRVN-COLOUR-BLACK);
+}
+
+.strvn-button-filled:hover:not(.strvn-button-disabled) {
+  border-color: var(--STRVN-COLOUR-BLACK);
 }
 
 .strvn-button-outlined {
