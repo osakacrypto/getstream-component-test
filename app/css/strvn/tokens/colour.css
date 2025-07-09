@@ -1,0 +1,15 @@
+/*
+PATH: app/css/strvn/tokens/colour.css
+@osakacrypto
+Last modified: 2025-07-10
+*/
+
+:root {
+  --STRVN-COLOUR-YELLOW: #f2b862;
+  --STRVN-COLOUR-BLACK: #0e111c;
+  --STRVN-COLOUR-WHITE: #ffffff;
+
+  --STRVN-PRIMARY: var(--STRVN-COLOUR-BLACK);
+  --STRVN-FOREGROUND: var(--STRVN-COLOUR-BLACK);
+  --STRVN-BACKGROUND: var(--STRVN-COLOUR-WHITE);
+}

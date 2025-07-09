@@ -4,6 +4,19 @@ PATH: app/global.css
 Last modified: 2025-07-08
 */
 
+@import "@/app/css/strvn/tokens/colour.css";
+@import "@/app/css/strvn/tokens/spacing.css";
+@import "@/app/css/strvn/tokens/font.css";
+@import "@/app/css/strvn/tokens/typography.css";
+@import "@/app/css/strvn/tokens/container.css";
+@import "@/app/css/strvn/tokens/timing.css";
+@import "@/app/css/strvn/tokens/radius.css";
+
+@import "@/app/css/strvn/tokens/themes/light.css";
+@import "@/app/css/strvn/tokens/themes/dark.css";
+
+@import "@/app/css/strvn/accessibility.css";
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -12,4 +25,83 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: var(--STRVN-SPACING-0);
+  background: var(--STRVN-BACKGROUND);
+  color: var(--STRVN-FOREGROUND);
+  font-family: var(--STRVN-FONT), sans-serif;
+}
+
+h1 {
+  font-size: var(--STRVN-HEADING);
+  font-weight: var(--STRVN-WEIGHT-BOLD);
+  margin: var(--STRVN-SPACING-0) var(--STRVN-SPACING-0) var(--STRVN-SPACING-4)
+    var(--STRVN-SPACING-0);
+  line-height: var(--STRVN-LINEHEIGHT-HEADING);
+}
+
+h2 {
+  font-size: var(--STRVN-TITLE);
+  font-weight: var(--STRVN-WEIGHT-BOLD);
+  margin: var(--STRVN-SPACING-0) var(--STRVN-SPACING-0) var(--STRVN-SPACING-4)
+    var(--STRVN-SPACING-0);
+  line-height: var(--STRVN-LINEHEIGHT-TITLE);
+}
+
+h3 {
+  font-size: var(--STRVN-TITLE);
+  font-weight: var(--STRVN-WEIGHT-SEMIBOLD);
+  margin: var(--STRVN-SPACING-0) var(--STRVN-SPACING-0) var(--STRVN-SPACING-4)
+    var(--STRVN-SPACING-0);
+  line-height: var(--STRVN-LINEHEIGHT-TITLE);
+}
+
+h4 {
+  font-size: var(--STRVN-SUBTITLE);
+  font-weight: var(--STRVN-WEIGHT-SEMIBOLD);
+  margin: var(--STRVN-SPACING-0) var(--STRVN-SPACING-0) var(--STRVN-SPACING-4)
+    var(--STRVN-SPACING-0);
+  line-height: var(--STRVN-LINEHEIGHT-SUBTITLE);
+}
+
+h5 {
+  font-size: var(--STRVN-CAPTION);
+  font-weight: var(--STRVN-WEIGHT-SEMIBOLD);
+  margin: var(--STRVN-SPACING-0) var(--STRVN-SPACING-0) var(--STRVN-SPACING-4)
+    var(--STRVN-SPACING-0);
+  line-height: var(--STRVN-LINEHEIGHT-CAPTION);
+}
+
+h6 {
+  font-size: var(--STRVN-OVERTITLE);
+  font-weight: var(--STRVN-WEIGHT-SEMIBOLD);
+  margin: var(--STRVN-SPACING-0) var(--STRVN-SPACING-0) var(--STRVN-SPACING-4)
+    var(--STRVN-SPACING-0);
+  line-height: var(--STRVN-LINEHEIGHT-OVERTITLE);
+}
+
+p {
+  font-size: var(--STRVN-PARAGRAPH);
+  font-weight: var(--STRVN-WEIGHT-REGULAR);
+  margin: var(--STRVN-SPACING-0) var(--STRVN-SPACING-0) var(--STRVN-SPACING-4)
+    var(--STRVN-SPACING-0);
+  line-height: var(--STRVN-LINEHEIGHT-PARAGRAPH);
+}
+
+.boilerplate-heading {
+  text-align: center;
+}
+
+.test-toggles {
+  position: fixed;
+  bottom: var(--STRVN-SPACING-4);
+  right: var(--STRVN-SPACING-4);
+  display: flex;
+  gap: var(--STRVN-SPACING-4);
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  z-index: 4;
 }

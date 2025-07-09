@@ -1,0 +1,12 @@
+/*
+PATH: app/css/strvn/tokens/font.css
+@osakacrypto
+Last modified: 2025-07-07
+*/
+
+:root {
+  --STRVN-WEIGHT-LIGHT: 100;
+  --STRVN-WEIGHT-REGULAR: 200;
+  --STRVN-WEIGHT-SEMIBOLD: 500;
+  --STRVN-WEIGHT-BOLD: 800;
+}

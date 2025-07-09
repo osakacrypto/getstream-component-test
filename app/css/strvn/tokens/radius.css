@@ -1,0 +1,11 @@
+/*
+PATH: app/css/strvn/tokens/radius.css
+@osakacrypto
+Last modified: 2025-07-07
+*/
+
+:root {
+  --STRVN-RADIUS-NONE: 0;
+  --STRVN-RADIUS-ROUNDED: 0.5rem;
+  --STRVN-RADIUS-FULL: 5rem;
+}

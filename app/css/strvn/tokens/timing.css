@@ -1,0 +1,11 @@
+/*
+PATH: app/css/strvn/tokens/timing.css
+@osakacrypto
+Last modified: 2025-07-07
+*/
+
+:root {
+  --STRVN-TIMING-NONE: 0.01ms;
+  --STRVN-TIMING-FAST: 0.3s;
+  --STRVN-TIMING-SLOW: 0.5s;
+}

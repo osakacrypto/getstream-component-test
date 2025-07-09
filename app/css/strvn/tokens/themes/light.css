@@ -1,0 +1,16 @@
+/*
+PATH: app/css/strvn/tokens/themes/light.css
+@osakacrypto
+Last modified: 2025-07-07
+*/
+
+@media (prefers-color-scheme: light) {
+  :root {
+  }
+}
+
+:root.theme-light {
+  --STRVN-PRIMARY: #f2b862;
+  --STRVN-FOREGROUND: #0e0f0c;
+  --STRVN-BACKGROUND: #ffffff;
+}

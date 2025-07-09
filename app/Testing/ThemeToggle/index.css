@@ -1,0 +1,11 @@
+/*
+PATH: app/Testing/ThemeToggle/index.css
+@osakacrypto
+Last modified: 2025-07-10
+*/
+
+button {
+  padding: var(--STRVN-SPACING-2) var(--STRVN-SPACING-4);
+  background: var(--STRVN-PRIMARY);
+  color: var(--STRVN-FOREGROUND);
+}

@@ -1,0 +1,17 @@
+/*
+PATH: app/css/strvn/tokens/spacing.css
+@osakacrypto
+Last modified: 2025-07-07
+*/
+
+:root {
+  --STRVN-SPACING-0: 0rem; /* 0px */
+  --STRVN-SPACING-1: 0.25rem; /* 4px */
+  --STRVN-SPACING-2: 0.5rem; /* 8px */
+  --STRVN-SPACING-3: 0.75rem; /* 12px */
+  --STRVN-SPACING-4: 1rem; /* 16px */
+  --STRVN-SPACING-5: 1.5rem; /* 24px */
+  --STRVN-SPACING-6: 2rem; /* 32px */
+  --STRVN-SPACING-7: 3rem; /* 48px */
+  --STRVN-SPACING-8: 4rem; /* 64px */
+}

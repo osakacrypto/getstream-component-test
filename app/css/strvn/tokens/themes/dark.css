@@ -1,0 +1,13 @@
+/*
+PATH: app/css/strvn/tokens/themes/dark.css
+@osakacrypto
+Last modified: 2025-07-07
+*/
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --STRVN-PRIMARY: #f2b862;
+    --STRVN-FOREGROUND: #e3e4d0;
+    --STRVN-BACKGROUND: #0e0f0c;
+  }
+}

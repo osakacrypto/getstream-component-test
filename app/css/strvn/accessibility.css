@@ -1,0 +1,33 @@
+/*
+PATH: app/css/strvn/accessibility.css
+@osakacrypto
+Last modified: 2025-07-07
+*/
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    * {
+      animation-duration: var(--STRVN-TIMING-NONE) !important;
+      transition-duration: var(--STRVN-TIMING-NONE) !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+.reduce-motion {
+  *,
+  *::before,
+  *::after {
+    * {
+      animation-duration: var(--STRVN-TIMING-NONE) !important;
+      transition-duration: var(--STRVN-TIMING-NONE) !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+html.large-text {
+  font-size: 120%;
+}

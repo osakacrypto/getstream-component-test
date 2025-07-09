@@ -1,0 +1,13 @@
+/*
+PATH: app/css/strvn/tokens/container.css
+@osakacrypto
+Last modified: 2025-07-07
+*/
+
+:root {
+  --STRVN-CONTAINER-WIDE: 1400px;
+  --STRVN-CONTAINER-DESKTOP: 1200px;
+  --STRVN-CONTAINER-LAPTOP: 800px;
+  --STRVN-CONTAINER-TABLET: 600px;
+  --STRVN-CONTAINER-MOBILE: 300px;
+}
